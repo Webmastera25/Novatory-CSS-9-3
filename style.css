@@ -1,0 +1,556 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0E0E0E;;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.headerContainer {
+    display: flex;
+    width: 100%;
+    max-width: 1040px;
+    flex-wrap: wrap;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navicon {
+    display: none;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.line {
+    width: 15px;
+    height: 2px;
+    background-color: white;
+}
+
+.linkBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.movie {
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.gray {
+    text-transform: capitalize;
+    color: #7B7B7B;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.gray:hover {
+    color: white;
+}
+
+.link:hover {
+    color: white;
+}
+
+h1 {
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.box {
+    color: #A00000;;
+}
+
+.nameBox {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+h4 {
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+main {
+    display: flex;
+    margin-top:32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.batmanContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    max-width: 1040px;
+    background-image: url(img/mainImg/batmanBackground.svg);
+    background-repeat: no-repeat;
+    border-radius: 18px;
+
+}
+
+.batmanText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.mbdStar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.batmanBox {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 91px;
+}
+
+.batmanText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+h2 {
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.mbdBox {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+}
+
+.mbdStar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.batmanWatch {
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.batman {
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.batmanAnotacion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+
+.fantasy {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.anotation {
+    color: #7B7B7B;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.watchButton {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px 32px;
+    background: #A00000;
+    box-shadow: 5px 2px 11.9px 0px #A00000;
+}
+
+.watch {
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.recomendedContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.searchBox {
+    display: flex;
+    width: 100%;
+    max-width: 1040px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.searchInput {
+    display: flex;
+    padding: 8px 16px 8px 12px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    background-color: #191919;
+}
+
+.inputs {
+    color: #7B7B7B;
+    font-family: Inter;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    border: none;
+    outline: none;
+    border-radius: 24px;
+    background-color: #191919;
+}
+
+.searchInput:hover {
+    border-radius: 24px;
+    border: 1px solid #A00000;
+    background-color: #191919;
+}
+
+.searchChoise {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 8px;
+    border-radius: 24px;
+    background-color: #191919;
+}
+
+.dropdown {
+    width: 110px;
+    color: #7B7B7B;
+    padding: 6px 12px 6px 16px;
+    border-radius: 24px;
+    border: none;
+    outline: none;
+    background-color: #191919;
+}
+
+.drop {
+    padding: 10px 16px;
+    color: white;
+    border-radius: 24px;
+    background-color: #818181;
+}
+
+.filmContainer {
+    display: flex;
+    width: 100%;
+    max-width: 1040px;
+    gap: 24px;
+}
+
+.filmBox {
+    display: flex;
+    position: relative;
+    width: 350px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.blurOne {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/mainImg/movie-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.blurOne:hover {
+    filter: blur(4px);
+}
+
+.blurTwo {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/mainImg/movie-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.blurTwo:hover {
+    filter: blur(4px);
+}
+
+.blurTree {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/mainImg/movie-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.blurTree:hover {
+    filter: blur(4px);
+}
+
+.blurFour {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/mainImg/movie-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.blurFour:hover {
+    filter: blur(4px);
+}
+
+.blurFive {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/mainImg/movie-5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.blurFive:hover {
+    filter: blur(4px);
+}
+
+.blurSix {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/mainImg/movie-6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.blurSix:hover {
+    filter: blur(4px);
+}
+
+.blurSeven {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/mainImg/movie-7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.blurSeven:hover {
+    filter: blur(4px);
+}
+
+.blurEight {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/mainImg/movie-8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.blurEight:hover {
+    filter: blur(4px);
+}
+
+
+
+
+
+
+
+
+
+
+
+.watchbuttonMovie {
+    display: none;
+    position: absolute;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px 32px;
+    background: #A00000;
+    box-shadow: 5px 2px 11.9px 0px #A00000;
+}
+
+.watch {
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.image {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 16px;
+    height: 400px;
+}
+
+.filmBox:hover .watchbuttonMovie  {
+    display: flex;
+}
+
+@media screen and (max-width:768px) and (max-width:1040px){
+    .image {
+        width: 100%;
+        min-width: 400px;
+        border-radius: 16px;
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:320px){
+    body {
+        padding: 10px;
+    }
+    .headerContainer {
+        padding-top: 15px;
+        gap: 10px;
+    }
+
+    h4 {
+        display: none;
+    }
+
+    .navicon {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+    
+    .linkBox {
+        display: none;
+    }
+
+    .line {
+        width: 15px;
+        height: 2px;
+        background-color: white;
+    }
+
+    .navicon {
+        display: flex;
+    }
+
+    .batmanBox {
+        padding: 22px;
+        gap: 81px;
+    }
+
+    .image {
+        width: 100%;
+        min-width: 300px;
+        border-radius: 16px;
+    }
+    
+    .searchBox  {
+        flex-wrap: wrap;
+    }
+    .filmContainer {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .batman {
+        display: none;
+    }
+}
